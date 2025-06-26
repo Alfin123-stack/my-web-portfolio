@@ -8,33 +8,40 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hello everyone, my name is{" "}
+            <span className="purple">Muhammad Alfin Alfarizi</span>, and I’m
+            from <span className="purple">Indonesia.</span>
+            <br />I currently work as an{" "}
+            <span className="purple">Academy Code Reviewer</span> at Dicoding
+            Indonesia, where I help aspiring developers improve their coding
+            skills.
             <br />
-            I am currently employed as a software developer at Juspay.
+            I’m also a student at{" "}
+            <span className="purple">Universitas Dinamika Bangsa</span>, and I’m
+            currently in my 6th semester pursuing a degree in Computer Science.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            When I’m not coding, here are some activities I enjoy:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Futsal with friends
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Watching exciting football matches
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Hitting the gym to stay fit
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Exploring the world of gaming
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Keep learning, keep growing, and create something impactful!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Muhammad Alfin Alfarizi</footer>
         </blockquote>
       </Card.Body>
     </Card>
