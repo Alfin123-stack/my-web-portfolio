@@ -31,7 +31,7 @@ function Projects() {
               description="A web-based forum application created as part of the React Developer Expert certification at Dicoding Indonesia. It allows users to authenticate, create, and interact with threads. Built with modern tools to ensure responsive and seamless user experiences."
               imgPath={CatThread}
               ghLink="https://github.com/Alfin123-stack/cat-thread"
-              demoLink="https://cat-thread.vercel.app"
+              demoLink="forum-discussion-six.vercel.app"
             />
           </Col>
 
