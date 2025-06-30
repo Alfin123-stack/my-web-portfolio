@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
+// Import project images
 import CatThread from "../../Assets/Projects/cat-thread.png";
 import NoteBook from "../../Assets/Projects/notebook.png";
 import WildOasis from "../../Assets/Projects/the-wild-oasis.png";
@@ -11,6 +13,7 @@ import YelpCamp from "../../Assets/Projects/yelp-camp.png";
 import RestaurantApp from "../../Assets/Projects/restoo.png";
 import ITBooks from "../../Assets/Projects/itbooks.png";
 import BookShelf from "../../Assets/Projects/book-shelf.png";
+import UsePopcorn from "../../Assets/Projects/use-popcorn.png"; // ✅ Tambahan gambar
 
 function Projects() {
   return (
@@ -31,7 +34,7 @@ function Projects() {
               description="A web-based forum application created as part of the React Developer Expert certification at Dicoding Indonesia. It allows users to authenticate, create, and interact with threads. Built with modern tools to ensure responsive and seamless user experiences."
               imgPath={CatThread}
               ghLink="https://github.com/Alfin123-stack/cat-thread"
-              demoLink="forum-discussion-six.vercel.app"
+              demoLink="https://forum-discussion-six.vercel.app"
             />
           </Col>
 
@@ -65,6 +68,17 @@ function Projects() {
               imgPath={FastReactPizza}
               ghLink="https://github.com/Alfin123-stack/My-Fast-React-Pizza"
               demoLink="https://fast-react-pizza.vercel.app"
+            />
+          </Col>
+
+          {/* My Use Popcorn */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              title="Use Popcorn"
+              description="A lightweight React application that allows users to search for movies and manage a personal watchlist. This project demonstrates the use of React Hooks, component testing with React Testing Library, and custom hook development."
+              imgPath={UsePopcorn}
+              ghLink="https://github.com/Alfin123-stack/my-use-popcorn"
+              demoLink="https://use-popcorn-two-xi.vercel.app/" // Tambahkan link demo jika sudah tersedia
             />
           </Col>
 
