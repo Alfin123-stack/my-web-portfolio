@@ -13,7 +13,9 @@ import YelpCamp from "../../Assets/Projects/yelp-camp.png";
 import RestaurantApp from "../../Assets/Projects/restoo.png";
 import ITBooks from "../../Assets/Projects/itbooks.png";
 import BookShelf from "../../Assets/Projects/book-shelf.png";
-import UsePopcorn from "../../Assets/Projects/use-popcorn.png"; // ✅ Tambahan gambar
+import UsePopcorn from "../../Assets/Projects/use-popcorn.png";
+import AIGen from "../../Assets/Projects/ai-gen.png";
+import StockMarket from "../../Assets/Projects/stock-market.png";
 
 function Projects() {
   return (
@@ -27,6 +29,28 @@ function Projects() {
           Here are some of the projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {/* ✅ AI-GEN-APP */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              title="AI-GEN-APP"
+              description="A modern Next.js 15 application that integrates Generative AI, multilingual support, and advanced UI/UX components. Features authentication with Clerk, subscription via Stripe, and scalable architecture with MongoDB."
+              imgPath={AIGen}
+              ghLink="https://github.com/Alfin123-stack/AI-Gen-App"
+              demoLink="https://ai-gen-apps-ivory.vercel.app/"
+            />
+          </Col>
+
+          {/* ✅ Real-Time Stock Market App */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              title="Real-Time Stock Market App"
+              description="A real-time financial dashboard built with Next.js 15, React 19, and TypeScript. Displays live stock data, interactive charts, and secure authentication for personalized tracking and insights."
+              imgPath={StockMarket}
+              ghLink="https://github.com/Alfin123-stack/Real-Time-Stock-Market-App"
+              demoLink="https://real-time-stock-market-app-mu.vercel.app/"
+            />
+          </Col>
+
           {/* Cat Thread */}
           <Col md={4} className="project-card">
             <ProjectCard
